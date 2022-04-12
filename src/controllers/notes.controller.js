@@ -37,7 +37,7 @@ notesCtrl.renderEditForm = async(req, res) => {
 notesCtrl.updateNote = async(req, res) => {
     const { title, description } = req.body;
     await Note.findByIdAndUpdate(req.params.id, { title, description }) //.lean()
-        //console.log(req.body);
+        console.log(req.body);
     req.flash('success_msg', 'Nota actualizada.');
     res.redirect('/notes');
 }

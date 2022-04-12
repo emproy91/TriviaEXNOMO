@@ -1,177 +1,184 @@
 const data = [
   {
-    id:01,
+    id: 01,
     category: "Programación",
     tq: "¿Cuál de las siguientes opciones no es un editor de codigo?",
     choices: ["vim", "vscode", "emacs", "word"],
     answer: "word",
   },
   {
-    id:02,
+    id: 02,
     category: "Programación",
     tq: "¿Qué lenguaje no es orientado a Objetos?",
     choices: ["Java", "Haskell", "C++", "Python"],
     answer: "Haskell",
   },
   {
-    id:03,
+    id: 03,
     category: "Programación",
     tq: "¿Qué lenguaje no sirve para estilizar sitios web?",
-    choices: ["Stylus", "Less", "Sass", "CSS", 'PostCSS', 'NextCSS'],
+    choices: ["Stylus", "Less", "Sass", "CSS", "PostCSS", "NextCSS"],
     answer: "NextCSS",
   },
   {
-    id:04,
+    id: 04,
     category: "Programación",
     tq: "¿Qué es la progamación?",
-    choices: ["un código", "un lenguaje", "creación de programas", "todas las anteriores"],
+    choices: [
+      "un código",
+      "un lenguaje",
+      "creación de programas",
+      "todas las anteriores",
+    ],
     answer: "todas las anteriores",
-    }, 
-    {
-    id:05,
+  },
+  {
+    id: 05,
     category: "Programación",
     tq: "¿Qué nunca podría ser una variable?",
     choices: ["letras", "números", "palabras reservadas", "espacios en blanco"],
     answer: "palabras reservadas",
-    },
-    {
-    id:06,
+  },
+  {
+    id: 06,
     category: "animales",
     tq: "¿Cuántos corazones tiene un pulpo?",
     choices: ["1", "2", "3", "4"],
     answer: "3",
-    },
-    {
-    id:07,
+  },
+  {
+    id: 07,
     category: "animales",
     tq: "¿Qué serpiente es más venenosa?",
     choices: ["víbora", "cobra", "boa", "cascabel"],
     answer: "boa",
-    },
-    {
-    id:08,
+  },
+  {
+    id: 08,
     category: "animales",
     tq: "¿Cúal de estos animales eligen un amor para toda la vida?",
     choices: ["oso", "caballito de mar", "araña", "delfín"],
     answer: "caballito de mar",
-    },
-    {
-    id:09,
+  },
+  {
+    id: 09,
     category: "animales",
     tq: "¿Cuánto tiempo necesita dormir una jirafa al día?",
     choices: ["55 minutos", "18 horas", "2 horas", "60 horas"],
     answer: "2 horas",
-    },
-    {
-    id:10,
+  },
+  {
+    id: 10,
     category: "animales",
     tq: "¿Qué animal vive más años?",
     choices: ["ballena", "tiburón", "tortuga", "tigre"],
     answer: "ballena",
-    },
-    {
-    id:11,
+  },
+  {
+    id: 11,
     category: "películas",
     tq: "Nombre de los dos protagonistas de la película Titanic",
     choices: ["Diana y Jorge", "Jack y Rose", "Anita y Jack", "Melanie y Tom"],
     answer: "Jack y Rose",
-    },
-    {
-    id:12,
+  },
+  {
+    id: 12,
     category: "películas",
     tq: "¿Cómo se llamaba el niño que maltrataba a los juguetes en Toy Story?",
     choices: ["Max", "Sid", "Tommy", "Andy"],
     answer: "Sid",
-    },
-    {
-    id:13,
+  },
+  {
+    id: 13,
     category: "películas",
     tq: "¿Cuántas partes tiene la película Cars?",
     choices: ["1", "5", "3", "8"],
     answer: "3",
-    },
-    {
-    id:14,
+  },
+  {
+    id: 14,
     category: "películas",
     tq: "¿Cómo se llama la hija de Simba en la película el Rey León?",
     choices: ["Kiara", "Nala", "Zira", "Nira"],
     answer: "Kiara",
-    },
-    {
-    id:15,
+  },
+  {
+    id: 15,
     category: "películas",
     tq: "¿Nombre del Capitán América?",
     choices: ["Chris Evan", "Bruce Banner", "Steve Rogers", "Clint Barton"],
     answer: "Steve Rogers",
-    },
-    {
-    id:16,
+  },
+  {
+    id: 16,
     category: "series",
     tq: "¿Cuántas temporadas lleva The Walking Dead?",
     choices: ["4", "10", "8", "6"],
     answer: "8",
-    },
-    {
-    id:17,
+  },
+  {
+    id: 17,
     category: "series",
     tq: "¿Cuál es el protagonista de la serie Vikingos?",
     choices: ["Floki", "Ragnar", "Rolo", "Lagertha"],
     answer: "Ragnar",
-    },
-    {
-    id:18,
+  },
+  {
+    id: 18,
     category: "series",
     tq: "¿Cómo se llama el peluche de Sakura?",
     choices: ["Kero", "Shira", "Kora", "Lila"],
     answer: "Kero",
-    },
-    {
-    id:19,
+  },
+  {
+    id: 19,
     category: "series",
     tq: "Los personajes de Sailor Moon tienen nombres de",
     choices: ["Números", "dioses griegos", "planetas", "signos zodiacales"],
     answer: "planetas",
-    },
-    {
-    id:20,
+  },
+  {
+    id: 20,
     category: "series",
     tq: "¿A cuántos atracadores reune el profesor en la casa de papel?",
     choices: ["12", "9", "8", "5"],
     answer: "8",
-    },
-    {
-    id:21,
+  },
+  {
+    id: 21,
     category: "rock",
     tq: "¿El rock es sinónimo de?",
     choices: ["cultura", "rebeldía", "amor y paz", "política"],
     answer: "rebeldía",
-    },
-    {
-    id:22,
+  },
+  {
+    id: 22,
     category: "rock",
     tq: "¿Dónde nace el rock and roll?",
     choices: ["España", "Canadá", "Estados Unidos", "México"],
     answer: "Estados Unidos",
-    },
-    {
-    id:23,
+  },
+  {
+    id: 23,
     category: "rock",
     tq: "¿Qué grupo representativo de la década de 1.960 fue considerado como el primer grupo con fans y seguidores jóvenes que demostraban un gran interés?",
     choices: ["Queen", "The Beatles", "Led Zeppelin", "The Doors"],
     answer: "The Beatles",
-    },
-    {
-    id:24,
+  },
+  {
+    id: 24,
     category: "rock",
-    tq: "Lamento boliviano» es una canción que hizo popular la banda de rock",
+    tq: "Lamento boliviano es una canción que hizo popular la banda de rock",
     choices: ["Caifanes", "Aterciopelados", "Enanitos verdes", "Juanes"],
     answer: "Enanitos verdes",
-    },
-    {
-    id:25,
+  },
+  {
+    id: 25,
     category: "rock",
     tq: "¿Cuál de estos artistas fue nombrado como el Rey del rock?",
     choices: ["Jim Morrinson", "Elvis Presley", "Fredy Mercury", "Mick Jagger"],
     answer: "Elvis Presley",
-    }
-    ]
+  },
+];
+
+module.exports = data;
