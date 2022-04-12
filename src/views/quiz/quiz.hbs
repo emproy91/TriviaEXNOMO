@@ -1,0 +1,25 @@
+
+    <div class="row">
+
+    {{#each Qid}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title d-flex justify-content-between align-items-center">
+                    {{tq}} <a href="/quiz/{{user._id}}"></a>
+                    </h4>
+                    <p>{{select}}</p>
+                    <form action="/notes/delete/{{_id}}?_method=POST" method="POST">
+                    <input type="hidden" name="_method" value="POST">
+                    <button type="submit" class="btn btn-danger btn-block btn-sm">
+                        {{select}}
+                    </button>
+                    
+                    </form>
+
+            </div>
+        </div>
+    </div>
+
+    {{/each}}
+</div>

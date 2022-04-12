@@ -1,0 +1,22 @@
+// const { Schema, model } = require('mongoose'); //definimos como guardar los datos
+
+class QuestionSchema {
+    /**
+     * 
+     * @param {String} id
+     * @param {String} category 
+     * @param {String} tq 
+     * @param {String[]} choices 
+     * @param {String} answer 
+     */
+    constructor( id, category, tq, choices, answer){
+    this.id = id;
+    this.category = category;
+    this.tq = tq;
+    this.choices = choices;
+    this.answer = answer;
+    }
+    }
+
+module.exports = QuestionSchema; //model('QuestionB', QuestionSchema); // ...NoteSchema,'collectionNme'); para ponerle nombre especifico a la coleccion
+// os objetos y funciones con "//!" son para hacer privadas las notas por usuario
